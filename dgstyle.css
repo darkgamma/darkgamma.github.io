@@ -1,3 +1,9 @@
 body {
-    background: #00ff00;
+    background: #000000;
+}
+p {
+	color: #ffffff;
+}
+h1 {
+    margin-left: 40px;
 }
