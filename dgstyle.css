@@ -32,7 +32,6 @@ h1 {
 a {
     -webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
     transition: color 0.5s;
-	color: #00bbff;
 }
 
 a:link {
