@@ -35,17 +35,17 @@ a {
 }
 
 a:link {
-    color: #00cbff;
+    color: #00a0ff;
 	text-decoration: underline;
 }
 
 /* visited link */
 a:visited {
-    color: #00cbff;
+    color: #00a0ff;
 	text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: #00ffbb;
+    color: #00ffcb;
 }
