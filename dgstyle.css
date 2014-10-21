@@ -48,8 +48,3 @@ a:visited {
 a:hover {
     color: #ff7010;
 }
-
-/* selected link */
-a:link {
-    color: #00bbff;
-}
