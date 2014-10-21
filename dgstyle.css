@@ -35,13 +35,13 @@ a {
 }
 
 a:link {
-    color: #00bbff;
+    color: #00cbff;
 	text-decoration: underline;
 }
 
 /* visited link */
 a:visited {
-    color: #00bbff;
+    color: #00cbff;
 	text-decoration: none;
 }
 
