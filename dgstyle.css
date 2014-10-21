@@ -42,6 +42,7 @@ a:link {
 /* visited link */
 a:visited {
     color: #00bbff;
+	text-decoration: none;
 }
 
 /* mouse over link */
