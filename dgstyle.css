@@ -36,11 +36,12 @@ a {
 
 a:link {
     color: #00bbff;
+	text-decoration: underline;
 }
 
 /* visited link */
 a:visited {
-    color: #0090d0;
+    color: #00bbff;
 }
 
 /* mouse over link */
