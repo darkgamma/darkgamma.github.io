@@ -12,12 +12,12 @@
 	font-weight: bold;
 	src: url(fonts/CharisSIL-B.woff);
 }
-@font-face {
+/*@font-face {
 	font-family: CharisSILW;
 	font-weight: bold;
 	font-style: italic;
 	src: url(fonts/CharisSIL-BI.woff);
-}
+}*/
 
 body {
     background: #000000;
