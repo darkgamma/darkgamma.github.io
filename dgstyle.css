@@ -30,7 +30,7 @@ h1 {
 }
 
 a {
-    -webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
+    -webkit-transition: color 0.5s;
     transition: color 0.5s;
 }
 
@@ -51,11 +51,10 @@ a:hover {
 }
 
 y {
-    -webkit-transition: color 0.5s; /* For Safari 3.1 to 6.0 */
+    -webkit-transition: color 0.5s;
     transition: color 0.5s;
 }
 
 y:hover {
 	color: #ff2240;
-	text-shadow: 1 1 14px #FF0000;
 }
