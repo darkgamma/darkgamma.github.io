@@ -35,8 +35,8 @@ a {
 }
 
 a:link {
-    color: #00a0ff;
-	text-decoration: underline;
+    color: #00b6ff;
+	/*text-decoration: underline;*/
 }
 
 /* visited link */
