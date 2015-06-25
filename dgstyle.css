@@ -61,7 +61,8 @@ y:hover {
 
 div {
     width: device-width;
-    padding: 20px;
+    padding-left: 20px;
+	padding-top: -20px;
     border: 0px solid gray;
     margin: 0; 
 }
