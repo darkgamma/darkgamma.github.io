@@ -3,10 +3,13 @@ body {
 	text-align:center;
 	
 }
-textarea {
+container {
+	background-color: #f7f1e5;
+	border-left:white;
+	border-right:white;
 }
 
-.col-md-1 
+.col-md-8 
 { 
 	background-color: #f7f1e5; 
 	text-align:left;
