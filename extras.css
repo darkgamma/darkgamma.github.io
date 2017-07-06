@@ -1,6 +1,25 @@
 body {
 	background-color: #f7f1e5;
+	
 }
+textarea {
+}
+
+.col-md-2 {
+	text-align:center;
+	
+}
+
+.md-left{
+	border-right: 2px solid gainsboro;
+}
+
+.md-right{
+	border-left: 2px solid gainsboro;
+}
+	
+}
+
 @media (min-width: 768px) {
   .navbar-text {
     float: left;
