@@ -1,23 +1,29 @@
 body {
-	background-color: #f7f1e5;
+	background-color: /*#f7f1e5;*/ wheat;
+	text-align:center;
 	
 }
 textarea {
 }
 
+.col-md-1 
+{ 
+	background-color: #f7f1e5; 
+	text-align:left;
+}
+
 .col-md-2 {
+	background-color:wheat;
 	text-align:center;
 	
 }
 
 .md-left{
-	border-right: 2px solid gainsboro;
+	/*border-right: 2px solid wheat;*/
 }
 
 .md-right{
-	border-left: 2px solid gainsboro;
-}
-	
+	/*border-left: 2px solid wheat;*/
 }
 
 @media (min-width: 768px) {
