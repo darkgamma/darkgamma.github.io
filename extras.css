@@ -9,6 +9,10 @@ container {
 	border-right:white;
 }
 
+.tab {
+	text-indent:40px;
+}
+
 .col-md-8 
 { 
 	background-color: #f7f1e5; 
