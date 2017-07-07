@@ -31,6 +31,11 @@ table.prettytable {
     border: 1px #aaa solid;
     padding: 0.2em;
 }
+
+.center th, .center td{
+	text-align: center;
+}
+
 .wikitable th,
 .prettytable th {
     background: #f2f2f2;
