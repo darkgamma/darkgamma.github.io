@@ -9,6 +9,40 @@ container {
 	border-right:white;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+table.wikitable,
+table.prettytable {
+    margin: 1em 1em 1em 0;
+    background: #f9f9f9;
+    border: 1px #aaa solid;
+    border-collapse: collapse;
+}
+.wikitable th, .wikitable td,
+.prettytable th, .prettytable td {
+    border: 1px #aaa solid;
+    padding: 0.2em;
+}
+.wikitable th,
+.prettytable th {
+    background: #f2f2f2;
+    text-align: center;
+}
+.wikitable caption,
+.prettytable caption {
+    margin-left: inherit;
+    margin-right: inherit;
+    font-weight: bold;
+}
+
 .tab {
 	text-indent:40px;
 }
