@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="bootstrap.css" media="screen">
     <link rel="stylesheet" href="theme.css">
 	<link rel="stylesheet" href="extras.css">
+	<link rel="stylesheet" href="navbar-fixed-side.css">
     <script>
 
      var _gaq = _gaq || [];
@@ -23,9 +24,17 @@
      })();
 
     </script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script> 
+	function scroll(element){   
+		var elem = document.getElementById(element);   
+		window.scrollTo(elem.offsetLeft,elem.offsetTop-55); 
+		} 
+	</script>
+	
   </head>
   <body>  
-    <div class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="5">
       <div class="container">
         <div class="navbar-header">
           <a href="../" class="navbar-brand">Darkgamma</a>
@@ -74,24 +83,53 @@
         </div>
       </div>
     </div>
-
+	
+<div class="container">
+<div class="row">
+<div class="container">
+  <div class="col-xs-1" style="position: fixed; right: 0.05%; top: 10%; width: 14.5%;">
+    <div class="sidebar-nav">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="visible-xs navbar-brand">Sidebar menu</span>
+        </div>
+        <div class="navbar-collapse collapse sidebar-navbar-collapse">
+          <ul class="nav navbar-nav">
+		    <li><a onclick="scroll(0,0)">To Start</a></li>
+			<li class="divider"></li>
+            <li><a href="#twenty">Menu Item 1</a></li>
+            <li><a onclick='scroll("thirty");'>Menu Item 3</a></li>
+            <li><a href="#">Menu Item 4</a></li>
+            <li><a href="#">Reviews <span class="badge">t</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+</div>
+<a name="intro">­</a>
 <div class="container" style="background-color: #f7f1e5; text-align:left;">
 
-        <div class="page-header">
-          <div class="row">
-            <div class="col-lg-12">
-              <h1 id="buttons">Ūlari — a Northern Lowlands language</h1>
-            </div>
-          </div>
-        </div>
+	<p>
+          <div>
+            <h1>Ūlari</h1>
+            <p class="lead">a Northern Lowlands language</p>
+          </div></p>
+
 
 <p class="tab">The Ūlari people have been for a long time described as nomadic or semi-nomadic, though with the advent of irrigation and rice agriculture in the Northern Lowlands, they have switched to a more sedentary lifestyle, aided by the new infrastructure. Culturally, the Ūlari belong to the same dragon herding stock as Mestians and the rest of the main constitutive Imperial peoples, but are otherwise one of only a few remaining constitutive peoples that still practice full-scale dragon husbandry. As such, their lives and livelihood generally involve herding practices, and livestock is traditionally extremely important to them. Traditionally, households amongst the Ūlari have measured wealth in heads of dragon cattle, and this practice persists in some form even today, despite the penetration of monetary economy into herder societies.</p>
 
 <p class="tab">The Ūlari language typologically resembles the average herder stock: it is very synthetic, and has a very well developed noun class system. Atypically for herder languages (though shared with its very closest neighbours), the Ūlari noun class system includes a grammaticalised human classification system based of human sex characteristics (or, more generally, a &quot;typical&quot; noun gender system), alongside a more general classification scheme.</p>
 
-<p class="tab">Ūlari distinguishes six general noun classes: <strong>animate</strong>, <strong>feminine</strong>, <strong>plant</strong>, <strong>inanimate</strong>, <strong>neuter</strong> and <strong>ignic</strong>. The main feature in Ūlari noun classification is the concept of &quot;specialised&quot; noun classes: nouns and adjectives generally get marked as animate, inanimate, neuter and ignic (being the basic noun classes), but may be &quot;overmarked&quot; for plant and feminine classes, specialising the category of animate and inanimate classes. Gender assignment in the Ūlari is deeply cultural: the trio of animate, inanimate and neuter respectively marks living beings, inanimate matter (as well as former animates), and abstract/intangible concepts; ignic nouns are generally unconnected to animacy and have typical attributes associated with fire or high temperature (with plenty of culturally significant exceptions, such as <em>ghała</em> &quot;breath; soul, spirit&quot;); plant nouns are classified based on their visible characteristics, and, as such, not all botanical plants get marked as classificatory plants. The primary classificatory curiosity is in the marking of feminine nouns.</p>
+<p class="tab">Ūlari distinguishes six general noun classes: <strong>animate</strong>, <strong>feminine</strong>, <strong>plant</strong>, <strong>inanimate</strong>, <strong>neuter</strong> and <strong>ignic</strong>. The main feature in Ūlari noun classification is the concept of &quot;specialised&quot; noun classes: nouns and adjectives generally get marked as animate, inanimate, neuter and ignic (being the basic noun classes), but may be &quot;overmarked&quot; for plant and feminine classes, specialising the category of animate and inanimate classes. Gender assignment in the Ūlari is deeply cultural: the trio of animate, inanimate and neuter respectively marks living beings, inanimate matter (as well as former animates), and abstract/intangible concepts; ignic nouns are generally unconnected to animacy and have typical attributes <span id="twenty">associated</span> with fire or high temperature (with plenty of culturally significant exceptions, such as <em>ghała</em> &quot;breath; soul, spirit&quot;); plant nouns are classified based on their visible characteristics, and, as such, not all botanical plants get marked as classificatory plants. The primary classificatory curiosity is in the marking of feminine nouns.</p>
 
-<p class="tab">Ūlari nouns take a feminine specialisation if they are either associated with femininity, or are beings with pronounced features associated with traditional femininity. This marking doesn&#39;t reflect actual biological sex, but rather reflects the observable characteristics of creatures. Thus, living beings, and specifically humans, can be unmarked for femininity if they are, for example, young and sexually immature, or have prominent characteristics associated with masculinity (which is otherwise unmarked in Ūlari). Thus, traditionally feminine women will almost certainly be marked as such, and the lack of a feminine marker may be used as a diminutive (reflecting the lack of marking on children), an insult for particularly feminine women, or those who take pride in their femininity, or as a comparison mechanism (when comparing two women), as well as a large number of other, pragmatically determined uses. Biologically male organisms, and specifically men, can also be marked as feminine if they conform to expectations of femininity or behave in a particular manner. This isn&#39;t necessarily always insulting, and may be used in a neutral manner as well.</p>
+<p class="tab" id="thirty">Ūlari nouns take a feminine specialisation if they are either associated with femininity, or are beings with pronounced features associated with traditional femininity. This marking doesn&#39;t reflect actual biological sex, but rather reflects the observable characteristics of creatures. Thus, living beings, and specifically humans, can be unmarked for femininity if they are, for example, young and sexually immature, or have prominent characteristics associated with masculinity (which is otherwise unmarked in Ūlari). Thus, traditionally feminine women will almost certainly be marked as such, and the lack of a feminine marker may be used as a diminutive (reflecting the lack of marking on children), an insult for particularly feminine women, or those who take pride in their femininity, or as a comparison mechanism (when comparing two women), as well as a large number of other, pragmatically determined uses. Biologically male organisms, and specifically men, can also be marked as feminine if they conform to expectations of femininity or behave in a particular manner. This isn&#39;t necessarily always insulting, and may be used in a neutral manner as well.</p>
 
 <hr/>
 
@@ -237,11 +275,11 @@ Diphthongs: &lt;<strong>ai au oa ea ie uo</strong>&gt;</p></div>
 <th>Locative
 </th><td>elétēt </td><td> elétēte </td><td> elétēlle
 </td></tr></table>
-</div>	
+</div>
 	
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="https://www.w3schools.com/lib/w3.js"></script>
+
     <script src="bootstrap.min.js"></script>
     <script src="custom.js"></script>
+
   <script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

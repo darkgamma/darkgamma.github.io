@@ -9,6 +9,16 @@ container {
 	border-right:white;
 }
 
+body {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+
 table {
   border-collapse: collapse;
 }
