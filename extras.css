@@ -13,12 +13,12 @@ body {
   padding-top: 60px;
   padding-bottom: 12px;
 }
-@media (max-width: 979px) {
-  body {
-    padding-top: 60px;
+
+@media (max-width: 1000px) {
+  .hidable {
+    visibility: hidden;
   }
 }
-
 
 table {
   border-collapse: collapse;
