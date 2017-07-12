@@ -9,6 +9,13 @@ container {
 	border-right:white;
 }
 
+@font-face { font-family: Irrigo; src: url('../fonts/Irrigo.woff'); } 
+
+.imperial {
+	font-family: "Irrigo";
+	font-size: 15px;
+}
+
 body {
   padding-top: 60px;
   padding-bottom: 12px;

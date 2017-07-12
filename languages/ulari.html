@@ -6,10 +6,10 @@
     <title>Darkgamma</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
-    <link rel="stylesheet" href="css/theme.css">
-	<link rel="stylesheet" href="css/extras.css">
-	<link rel="stylesheet" href="css/navbar-fixed-side.css">
+    <link rel="stylesheet" href="../css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="../css/theme.css">
+	<link rel="stylesheet" href="../css/extras.css">
+	<link rel="stylesheet" href="../css/navbar-fixed-side.css">
     <script>
 
      var _gaq = _gaq || [];
@@ -39,7 +39,7 @@
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="index.html" class="navbar-brand">Darkgamma</a>
+          <a href="../" class="navbar-brand">Darkgamma</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -88,6 +88,30 @@
 	
 <div class="container" id="start">
 <div class="row">
+  <div class="col-xs-1" style="position: fixed; right: 0.05%; top: 10%; width: 14.5%;">
+    <div class="sidebar-nav hidable">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="visible-xs navbar-brand">Sidebar menu</span>
+        </div>
+        <div class="navbar-collapse collapse sidebar-navbar-collapse">
+          <ul class="nav navbar-nav">
+		    <li style="width:100%; text-align:left"><a href="#start">To Start</a></li>
+            <li style="width:100%; text-align:left"><a href="#thirty">Menu Item 1</a></li>
+            <li style="width:100%; text-align:left"><a onclick='scroll("thirty");'>Menu Item 3</a></li>
+            <li style="width:100%; text-align:left"><a href="#">Menu Item 4</a></li>
+            <li style="width:100%; text-align:left"><a href="#">Reviews <span class="badge">t</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
 <div class="container" style="background-color: #f7f1e5; text-align:left;">
 
 	<p>
@@ -97,7 +121,7 @@
           </div></p>
 
 
-<p class="tab">The Ūlari people have been for a long time described as nomadic or semi-nomadic, though with the advent of irrigation and rice agriculture in the Northern Lowlands, they have switched to a more sedentary lifestyle, aided by the new infrastructure. Culturally, the Ūlari belong to the same dragon herding stock as Mestians and the rest of the main constitutive Imperial peoples, but are otherwise one of only a few remaining constitutive peoples that still practice full-scale dragon husbandry. As such, their lives and livelihood generally involve herding practices, and livestock is traditionally extremely important to them. Traditionally, households amongst the Ūlari have measured wealth in heads of dragon cattle, and this practice persists in some form even today, <span class="imperial">󱀄󱀟󱀢󱀛󱀑󱀜󱀝󱀜󱀝󱁊</span> despite the penetration of monetary economy into herder societies.</p>
+<p class="tab">The Ūlari people have been for a long time described as nomadic or semi-nomadic, though with the advent of irrigation and rice agriculture in the Northern Lowlands, they have switched to a more sedentary lifestyle, aided by the new infrastructure. Culturally, the Ūlari belong to the same dragon herding stock as Mestians and the rest of the main constitutive Imperial peoples, but are otherwise one of only a few remaining constitutive peoples that still practice full-scale dragon husbandry. As such, their lives and livelihood generally involve herding practices, and livestock is traditionally extremely important to them. Traditionally, households amongst the Ūlari have measured wealth in heads of dragon cattle, and this practice persists in some form even today, despite the penetration of monetary economy into herder societies.</p>
 
 <p class="tab">The Ūlari language typologically resembles the average herder stock: it is very synthetic, and has a very well developed noun class system. Atypically for herder languages (though shared with its very closest neighbours), the Ūlari noun class system includes a grammaticalised human classification system based of human sex characteristics (or, more generally, a &quot;typical&quot; noun gender system), alongside a more general classification scheme.</p>
 
@@ -251,8 +275,8 @@ Diphthongs: &lt;<strong>ai au oa ea ie uo</strong>&gt;</p></div>
 </div></div>
 	
 --->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/custom.js"></script>
 		<script>
 		$('a[href^="#"]').on('click', function(event) {
 		var target = $(this.getAttribute('href'));
